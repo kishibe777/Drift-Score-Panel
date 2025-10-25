@@ -3,6 +3,8 @@
 
 Un panneau de score interactif pour voiture de drift RC, basé sur ESP32-S3 SuperMini.
 
+https://youtu.be/Xvv16W8SvOg?si=CKIVSCTOliZtr9Rx
+
 ## 🚗 Fonctionnalités
 - Détection de distance via capteur ultrason HY-SRF05  
 - Affichage sur matrice LED MAX7219 (4 modules)  
