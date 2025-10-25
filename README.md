@@ -15,20 +15,20 @@ Un panneau de score interactif pour voiture de drift RC, basé sur ESP32-S3 Supe
 |------------|------------|------------|
 | Microcontrôleur | ESP32-S3 SuperMini | 240 MHz, Wi-Fi + USB natif |
 | Capteur ultrason | HY-SRF05 | Mesure la distance de la voiture |
-| Afficheur LED | MAX7219 x4 | Affiche score et animations |
+| Afficheur LED | MAX7219 x4 (8x32)| Affiche score et animations |
 | Module audio | DFPlayer Mini / 8 ohms 3w speaker | Effets sonores |
-| Bouton | basic momentary switch | Contrôle du volume et mode mesure |
-| Potentiomètre 10k | Rotary angle sensor V1.1 | Réglage de la distance de détection max (20 à 80 cm)
+| Bouton | Basic momentary switch | Contrôle du volume et mode mesure |
+| Potentiomètre linéaire 10k | Rotary angle sensor V1.1 | Réglage de la distance de détection max (20 à 80 cm)
+| Led RGB | DC5V-WS2812-3PIN | Effets lumineux à la détection |
 
 ## 🔌 Branchement
 *(à compléter ensemble)*
 
 ## 🧰 Librairies Arduino
-- `MD_MAX72XX`
-- `DFRobotDFPlayerMini`
-- `NewPing`
-- `ArduinoJson`
-- `Adafruit_GFX` (si OLED)
+- 'MD_MAX72XX'
+- 'MD_Parola'
+- 'DFRobotDFPlayerMini'
+- 'Adafruit_NeoPixel'
 
 ## ▶️ Installation
 1. Cloner le dépôt  
