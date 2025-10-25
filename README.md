@@ -24,7 +24,7 @@ https://youtu.be/Xvv16W8SvOg?si=CKIVSCTOliZtr9Rx
 | Led RGB | DC5V-WS2812-3PIN | Effets lumineux à la détection |
 
 ## 🔌 Branchement
-*(à compléter ensemble)*
+*comming soon*
 
 ## 🧰 Librairies Arduino
 - 'MD_MAX72XX'
